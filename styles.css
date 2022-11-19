@@ -8,6 +8,7 @@ a {
 }
 
 .container {
+    margin: 0 auto;
     width: 1440px;
 }
 
@@ -102,11 +103,10 @@ a {
 .insurance {
     width: 1320px;
     height: 561px;
-    /*background-image: url("backgroundimg.png");*/
+    background-image: url("./img/backgroundimg.png");
     background-color: aquamarine;
     padding: 159px 0 0 115px;
     margin-bottom: 213px;
-
 }
 
 .insurance__text {
