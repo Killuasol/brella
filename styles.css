@@ -1,0 +1,582 @@
+@import url('https://fonts.cdnfonts.com/css/raleway-5');
+@import url('https://fonts.cdnfonts.com/css/roboto');
+
+a:active,
+a:hover,
+a {
+    text-decoration: none;
+}
+
+.container {
+    width: 1440px;
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/*header*/
+
+.header {
+    width: 1319px;
+    height: 90px;
+    display: flex;
+    padding-left: 39px;
+}
+
+.logo {
+    padding-right: 309px;
+}
+
+/*navigation*/
+
+.navigation {
+    height: 40px;
+    width: 583px;
+    margin-top: 20px;
+    padding-right: 69px;
+}
+
+.navigation__list {
+    height: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.list__text, .login__text, .lang__text {
+    font-family: "Raleway", serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 20px;
+    text-decoration: none;
+    color: #214E41;
+}
+
+.demo-button {
+    width: 137px;
+    height: 40px;
+    margin-top: 20px;
+    background: #43806C;
+    border-radius: 6px;
+    border: none;
+    margin-right: 29px;
+    cursor: pointer;
+}
+
+.demo__text {
+    font-family: "Raleway", serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 20px;
+    color: #FFFFFF
+}
+
+.login {
+    width: 52px;
+    height: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 30px;
+    margin-right: 44px;
+}
+
+.login_arrow {
+    width: 12px;
+    height: 8px;
+}
+
+.lang {
+    margin-top: 30px;
+}
+
+
+/*main*/
+/*начальная страница с фоном img*/
+
+.insurance {
+    width: 1320px;
+    height: 561px;
+    /*background-image: url("backgroundimg.png");*/
+    background-color: aquamarine;
+    padding: 159px 0 0 115px;
+    margin-bottom: 213px;
+
+}
+
+.insurance__text {
+    width: 516px;
+    height: 138px;
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 46px;
+    color: #214E41;
+    margin-bottom: 43px;
+}
+
+.interests {
+    font-family: "Raleway";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    color: #214E41;
+    margin-bottom: 15px;
+}
+
+.question {
+    width: 403px;
+    display: flex;
+    margin-bottom: 30px;
+}
+
+.question__input {
+    width: 276px;
+    height: 57px;
+    border-radius: 6px 0 0 6px;
+    border: none;
+}
+
+.question__button {
+    width: 125px;
+    height: 60px;
+    background: #43806C;
+    border-radius: 0px 6px 6px 0px;
+    border: none;
+}
+
+.button__text {
+    font-family: "Raleway";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 13px;
+    line-height: 20px;
+    color: #FFFFFF;
+}
+
+/*блок выходящий из потока*/
+
+
+.benefits {
+    width: 1100px;
+    height: 171px;
+    padding: 0 50px 0 50px;
+    background-color: #FFFFFF;
+    box-shadow: 1px 1px 4px rgba(232, 230, 230, 0.6);
+    border-radius: 6px;
+    align-items: center;
+}
+
+.benefits__list {
+    width: 1100px;
+    height: 171px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.img__list {
+    margin-top: 7px;
+    margin-right: 10px;
+}
+
+.list {
+    width: 356px;
+    height: 71px;
+    display: flex;
+}
+
+.list__block {
+    width: 305px;
+    height: 69px;
+    align-content: space-between;
+}
+
+/*statistics*/
+.statistics__block {
+    width: 1090px;
+    height: 515px;
+    padding: 0 171px 0 174px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.statistics {
+    width: 510px;
+    height: 358px;
+}
+
+.statistics__question {
+    font-family: "Raleway";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 20px;
+    text-transform: uppercase;
+    color: #43806C;
+    margin-bottom: 17px;
+}
+
+.statistics__now {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 46px;
+    color: #214E41;
+    margin-bottom: 37px;
+}
+
+.statistics__plan {
+    font-family: "Raleway";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+    letter-spacing: 0.02px;
+    color: #757575;
+    margin-bottom: 24px;
+}
+
+.statistics__link {
+    width: 107px;
+    height: 35px;
+    display: inline-block;
+    font-family: "Raleway";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 18px;
+    text-align: center;
+    letter-spacing: 0.02px;
+    color: #214E41;
+}
+
+.link__underline {
+    width: 107px;
+    height: 1px;
+    background-color: #214E41;
+}
+
+/*excellence*/
+
+.excellence {
+    width: 1321px;
+    height: 640px;
+    background-color: #E3EEED;
+    padding: 0 0 0 113px;
+    display: flex;
+    margin-bottom: 122px;
+}
+
+.excellence__first-block {
+    width: 705px;
+    height: 519px;
+    background: #E3EEED;
+    padding-top: 121px;
+}
+
+.excellence__last-block {
+    width: 890px;
+    height: 475px;
+    background: #214E41;
+    padding: 165px 0 0 115px;
+}
+
+.first-block {
+    width: 585px;
+    height: 342px;
+}
+
+.first-block__list {
+    font-family: "Raleway";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 20px;
+    letter-spacing: 0.05px;
+    text-transform: uppercase;
+    color: #214E41;
+    margin-bottom: 28px;
+}
+
+.list__excellence {
+}
+
+.excellence__text-bold {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 42px;
+    color: #214E41;
+    margin-bottom: 18px;
+}
+
+.excellence__text {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 42px;
+    color: #43806C;
+    margin-bottom: 18px;
+}
+
+.last-block__list {
+    width: 491px;
+    font-family: "Raleway";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 34px;
+    letter-spacing: 0.02px;
+    color: #FFFFFF;
+    margin-bottom: 34px;
+}
+
+/*coverage*/
+
+.coverage {
+    width: 1200px;
+    height: 354px;
+    background-color: aquamarine;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 120px 0 113px;
+}
+
+.coverage__section {
+    width: 578px;
+    height: 298px;
+}
+
+.section__first {
+    font-family: "Raleway";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 13px;
+    line-height: 20px;
+    letter-spacing: 0.05px;
+    text-transform: uppercase;
+    color: #43806C;
+    margin-bottom: 17px;
+}
+
+.section__next {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 46px;
+    color: #214E41;
+    margin-bottom: 34px;
+}
+
+.section__last {
+    font-family: "Raleway";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+    letter-spacing: 0.02px;
+    color: #757575;
+}
+
+/*situation*/
+
+.situation {
+    width: 1200px;
+    height: 132px;
+    margin: 0 0 20px 114px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.situation__list {
+    width: 262.5px;
+    height: 132px;
+}
+
+.list__text-big {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 60px;
+    line-height: 78px;
+    color: #F0A446;
+    display: inline-block;
+    margin-bottom: 17px;
+}
+
+.list__text-small {
+    font-family: "Raleway";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 13px;
+    line-height: 22px;
+    letter-spacing: 0.02px;
+    color: #214E41;
+}
+
+/*footer*/
+.footer {
+    width: 1200px;
+    height: 690px;
+    background: #214E41;
+    border-radius: 0;
+    padding: 100px 120px 0 120px;
+}
+
+.footer__first-block {
+    width: 1200px;
+    height: 277px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.address {
+    width: 592px;
+    height: 215px;
+    display: flex;
+}
+
+.address__img {
+    margin-right: 105px;
+}
+
+.address__join, .address__company {
+    width: 186px;
+    height: 192px;
+
+}
+
+.address__margin {
+    margin-right: 17px;
+}
+
+.join__list-bold {
+    font-family: "Raleway";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 13px;
+    line-height: 24px;
+    letter-spacing: 0.02px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    margin-bottom: 15px;
+}
+
+.company__list-bold {
+    font-family: "Raleway";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.02px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    margin-bottom: 16px;
+}
+
+.join__list {
+    font-family: "Raleway";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 27px;
+    color: #FFFFFF;
+    margin-bottom: 15px;
+}
+
+/*registration form*/
+
+.registration {
+    width: 355px;
+    height: 215px;
+}
+
+.registration__list {
+    font-family: "Raleway";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 24px;
+    letter-spacing: 0.02px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    margin-bottom: 19px;
+}
+
+.registration__list-last {
+    font-family: "Raleway";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.02px;
+    color: #FFFFFF;
+    margin-bottom: 16px;
+}
+
+.subscription {
+    width: 355px;
+    height: 52px;
+    display: flex;
+}
+
+.subscription__input {
+    width: 300px;
+    height: 46px;
+    background: #214E41;
+}
+
+.subscription__button {
+    width: 53px;
+    height: 50px;
+    background: #FFFFFF;
+    border-radius: 0;
+    border: none;
+
+}
+
+.hr {
+    margin-bottom: 74px;
+}
+
+.footer__list {
+    font-family: "Raleway";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.02px;
+    color: #FFFFFF;
+}
+
+.margin-first {
+    margin-bottom: 20px;
+}
+
+.margin-next {
+    margin-bottom: 24px;
+}
+
+.margin-last {
+    margin-bottom: 90px;
+}
+
+.rights {
+    width: 1200px;
+    height: 24px;
+    display: flex;
+    justify-content: space-between;
+    padding-right: 1px;
+}
