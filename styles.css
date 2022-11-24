@@ -150,6 +150,7 @@ a {
     background: #43806C;
     border-radius: 0px 6px 6px 0px;
     border: none;
+    cursor: pointer;
 }
 
 .button__text {
