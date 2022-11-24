@@ -21,10 +21,10 @@ a {
 /*header*/
 
 .header {
-    width: 1319px;
+    width: 1440px;
     height: 90px;
     display: flex;
-    padding-left: 39px;
+    padding-left: 79px;
 }
 
 .logo {
@@ -36,8 +36,7 @@ a {
 .navigation {
     height: 40px;
     width: 583px;
-    margin-top: 20px;
-    padding-right: 69px;
+    margin: 19px 69px 0 0;
 }
 
 .navigation__list {
@@ -47,7 +46,7 @@ a {
     align-items: center;
 }
 
-.list__text, .login__text, .lang__text {
+.navigation__text, .login__text, .lang__text {
     font-family: "Raleway", serif;
     font-style: normal;
     font-weight: 700;
@@ -60,7 +59,7 @@ a {
 .demo-button {
     width: 137px;
     height: 40px;
-    margin-top: 20px;
+    margin-top: 18px;
     background: #43806C;
     border-radius: 6px;
     border: none;
@@ -68,7 +67,7 @@ a {
     cursor: pointer;
 }
 
-.demo__text {
+.demo-button__text {
     font-family: "Raleway", serif;
     font-style: normal;
     font-weight: 700;
@@ -85,6 +84,7 @@ a {
     align-items: center;
     margin-top: 30px;
     margin-right: 44px;
+    cursor: pointer;
 }
 
 .login_arrow {
@@ -169,9 +169,19 @@ a {
     height: 171px;
     padding: 0 50px 0 50px;
     background-color: #FFFFFF;
-    box-shadow: 1px 1px 4px rgba(232, 230, 230, 0.6);
+    box-shadow: 0 4px 0 5px rgba(232, 230, 230, 0.6);
     border-radius: 6px;
     align-items: center;
+}
+
+.absolut {
+    position: absolute;
+    left: 115px;
+    top: 624px;
+}
+
+.relative {
+    position: relative;
 }
 
 .benefits__list {
@@ -187,7 +197,7 @@ a {
     margin-right: 10px;
 }
 
-.list {
+.benefits__excellence {
     width: 356px;
     height: 71px;
     display: flex;
@@ -195,8 +205,28 @@ a {
 
 .list__block {
     width: 305px;
-    height: 69px;
+    height: 66px;
+    padding-top: 3px;
     align-content: space-between;
+}
+
+.excel__text-head {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #214E41;
+    margin-bottom: 7px;
+}
+
+.excel__text {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: #214E41;
 }
 
 /*statistics*/
@@ -209,7 +239,7 @@ a {
 }
 
 .statistics {
-    width: 510px;
+    width: 480px;
     height: 358px;
 }
 
@@ -308,6 +338,8 @@ a {
 }
 
 .list__excellence {
+    width: 600px;
+    height: 360px;
 }
 
 .excellence__text-bold {
@@ -320,6 +352,10 @@ a {
     margin-bottom: 18px;
 }
 
+.grab__list {
+    margin-bottom: 18px;
+}
+
 .excellence__text {
     font-family: "Roboto";
     font-style: normal;
@@ -327,7 +363,6 @@ a {
     font-size: 32px;
     line-height: 42px;
     color: #43806C;
-    margin-bottom: 18px;
 }
 
 .last-block__list {
@@ -347,7 +382,6 @@ a {
 .coverage {
     width: 1200px;
     height: 354px;
-    background-color: aquamarine;
     display: flex;
     justify-content: space-between;
     padding: 0 120px 0 113px;
@@ -358,7 +392,7 @@ a {
     height: 298px;
 }
 
-.section__first {
+.coverage__first {
     font-family: "Raleway";
     font-style: normal;
     font-weight: 700;
@@ -370,7 +404,7 @@ a {
     margin-bottom: 17px;
 }
 
-.section__next {
+.coverage__next {
     font-family: "Roboto";
     font-style: normal;
     font-weight: 700;
@@ -380,7 +414,7 @@ a {
     margin-bottom: 34px;
 }
 
-.section__last {
+.coverage__last {
     font-family: "Raleway";
     font-style: normal;
     font-weight: 400;
@@ -405,7 +439,7 @@ a {
     height: 132px;
 }
 
-.list__text-big {
+.situation__text-big {
     font-family: "Roboto";
     font-style: normal;
     font-weight: 700;
@@ -413,10 +447,10 @@ a {
     line-height: 78px;
     color: #F0A446;
     display: inline-block;
-    margin-bottom: 17px;
+    margin-bottom: 15px;
 }
 
-.list__text-small {
+.situation__text-small {
     font-family: "Raleway";
     font-style: normal;
     font-weight: 700;
@@ -493,6 +527,9 @@ a {
     font-size: 16px;
     line-height: 27px;
     color: #FFFFFF;
+}
+
+.join__grab {
     margin-bottom: 15px;
 }
 
@@ -544,7 +581,7 @@ a {
     background: #FFFFFF;
     border-radius: 0;
     border: none;
-
+    cursor: pointer;
 }
 
 .hr {

@@ -15,16 +15,16 @@
 <body>
 <header class="header container">
     <div class="center logo">
-        <img alt="logo" src="./img/logo.svg">
+        <a href="#"><img alt="logo" src="./img/logo.svg"></a>
     </div>
     <nav class="navigation">
-        <ul class="navigation__list list">
+        <ul class="navigation__list">
             <li><a class="navigation__text" href="#">Our Plan</a></li>
-            <li><a class="list__text" href="#">Employers</a></li>
-            <li><a class="list__text" href="#">Brokers</a></li>
-            <li><a class="list__text" href="#">Members</a></li>
-            <li><a class="list__text" href="#">About</a></li>
-            <li><a class="list__text" href="#">Blog</a></li>
+            <li><a class="navigation__text" href="#">Employers</a></li>
+            <li><a class="navigation__text" href="#">Brokers</a></li>
+            <li><a class="navigation__text" href="#">Members</a></li>
+            <li><a class="navigation__text" href="#">About</a></li>
+            <li><a class="navigation__text" href="#">Blog</a></li>
         </ul>
     </nav>
     <button class="demo-button">
@@ -34,13 +34,11 @@
         <span class="login__text">Login</span>
         <img alt="arrow" class="login_arrow" src="./img/arrow.svg">
     </div>
-    <div class="lang">
-        <a class="lang__text">EN</a>
-    </div>
+    <a class="lang lang__text" href="#">EN</a>
 </header>
 
 <main class="container">
-    <section class="insurance">
+    <section class="insurance relative">
         <h1 class="insurance__text">
             Give your team peace of mind with supplemental
             health insurance from Brella.
@@ -56,27 +54,30 @@
             </button>
         </form>
 
-        <div class="benefits">
-            <ul class="benefits__listfgdsfgdfgfd">
-                <li class="benefits__list">
+        <div class="benefits absolut">
+            <ul class="benefits__list">
+                <li class="benefits__excellence">
                     <img alt="umbrella" class="img__list" src="./img/umbrella.png" style="width: 41px; height: 45px"/>
-                    <div class="list__block">
-                        <p>More coverage</p>
-                        <p>Brella covers 13,000+ injuries and illnesses from concussions to cancer.</p>
+                    <div class="list__block excel">
+                        <p class="excel__text-head ">More coverage</p>
+                        <p class="excel__text">Brella covers 13,000+ injuries and illnesses from concussions to
+                            cancer.</p>
                     </div>
                 </li>
-                <li class="list">
-                    <img alt="check" class="benefits__img" src="./img/check.svg" style="width: 46px; height: 45px"/>
-                    <div class="list__block">
-                        <p class="dadasdassd">Less hassle</p>
-                        <p>One easy-to-manage plan with paperless install and online admin tools.</p>
+                <li class="benefits__excellence">
+                    <img alt="check" class="img__list" src="./img/check.svg" style="width: 46px; height: 45px"/>
+                    <div class="list__block excel">
+                        <p class="excel__text-head ">Less hassle</p>
+                        <p class="excel__text">One easy-to-manage plan with paperless install and online admin
+                            tools.</p>
                     </div>
                 </li>
-                <li class="list">
+                <li class="benefits__excellence">
                     <img alt="wallet" class="img__list" src="./img/wallet.svg" style="width: 58px; height: 45px"/>
-                    <div class="list__block">
-                        <p>Faster benefits</p>
-                        <p>Brella pays claims in hours–not weeks so your people can rest easy.</p>
+                    <div class="list__block excel">
+                        <p class="excel__text-head ">Faster benefits</p>
+                        <p class="excel__text">Brella pays claims in hours–not weeks so your people can rest
+                            easy.</p>
                     </div>
                 </li>
             </ul>
@@ -99,13 +100,13 @@
         <div class="excellence__first-block">
             <section class="first-block">
                 <h2 class="first-block__list">brella brings</h2>
-                <ul class="list__excellence">
-                    <li class="excellence__text-bold">Customizable benefits</li>
-                    <li class="excellence__text">Paperless install & admin</li>
-                    <li class="excellence__text">Effortless enrollment</li>
-                    <li class="excellence__text">Easy claims experience</li>
-                    <li class="excellence__text">Fast benefit payouts</li>
-                    <li class="excellence__text">Concierge support</li>
+                <ul class="list__excellence grab">
+                    <li class="grab__list"><a class="excellence__text-bold" href="#">Customizable benefits</a></li>
+                    <li class="grab__list"><a class="excellence__text" href="#">Paperless install & admin</a></li>
+                    <li class="grab__list"><a class="excellence__text" href="#">Effortless enrollment</a></li>
+                    <li class="grab__list"><a class="excellence__text" href="#">Easy claims experience</a></li>
+                    <li class="grab__list"><a class="excellence__text" href="#">Fast benefit payouts</a></li>
+                    <li><a class="excellence__text" href="#">Concierge support</a></li>
                 </ul>
             </section>
         </div>
@@ -126,8 +127,8 @@
     <div class="coverage">
         <section class="coverage__section">
             <h2 class="coverage__first">one plan, more coverage</h2>
-            <p class="section__next">No one can predict which health issues might come their way.</p>
-            <p class="section__last">Our broad supplemental coverage gets rid of the guesswork and puts
+            <p class="coverage__next">No one can predict which health issues might come their way.</p>
+            <p class="coverage__last">Our broad supplemental coverage gets rid of the guesswork and puts
                 cash in your team’s pockets for most conditions that require urgent
                 medical attention.
             </p>
@@ -143,20 +144,20 @@
             </p>
         </li>
         <li class="situation__list">
-            <span class="list__text-big">1X</span>
-            <p class="list__text-small">
+            <span class="situation__text-big">1X</span>
+            <p class="situation__text-small">
                 more covered conditions than Accident and Critical Illness plans—combined
             </p>
         </li>
         <li class="situation__list">
-            <span class="list__text-big">40%</span>
-            <p class="list__text-small">
+            <span class="situation__text-big">40%</span>
+            <p class="situation__text-small">
                 plans are 100% guaranteed issue. No medical underwriting required
             </p>
         </li>
         <li class="situation__list">
-            <span class="list__text-big">0</span>
-            <p class="list__text-small">
+            <span class="situation__text-big">0</span>
+            <p class="situation__text-small">
                 Zero limitations or exclusions for pre-existing conditions
             </p>
         </li>
@@ -166,20 +167,20 @@
 <footer class="footer">
     <div class="footer__first-block">
         <address class="address">
-            <img alt="brella" class="address__img" src="./img/brella.svg" style="width: 97px; height: 28px">
+            <a href="#"><img alt="brella" class="address__img" src="./img/brella.svg" style="width: 97px; height: 28px"></a>
             <ul class="address__join">
-                <li class="join__list-bold">Join Brella</li>
-                <li class="join__list">Our Plan</li>
-                <li class="join__list">Employers</li>
-                <li class="join__list">Brokers</li>
-                <li class="join__list">Members</li>
+                <li class="join__grab"><a class="join__list-bold" href="#">Join Brella</a></li>
+                <li class="join__grab"><a class="join__list" href="#">Our Plan</a></li>
+                <li class="join__grab"><a class="join__list" href="#">Employers</a></li>
+                <li class="join__grab"><a class="join__list" href="#">Brokers</a></li>
+                <li class="join__grab"><a class="join__list" href="#">Members</a></li>
             </ul>
-            <ul class="address__company">
-                <li class="company__list-bold">Company</li>
-                <li class="join__list">About</li>
-                <li class="join__list">Blog</li>
-                <li class="join__list">Careers</li>
-                <li class="join__list">Contact</li>
+            <ul class="address__company join">
+                <li class="join__grab"><a class="join__list-bold" href="#">Company</a></li>
+                <li class="join__grab"><a class="join__list" href="#">About</a></li>
+                <li class="join__grab"><a class="join__list" href="#">Blog</a></li>
+                <li class="join__grab"><a class="join__list" href="#">Careers</a></li>
+                <li class="join__grab"><a class="join__list" href="#">Contact</a></li>
             </ul>
         </address>
 
@@ -191,8 +192,8 @@
             <form class="subscription">
                 <label for="email"></label>
                 <input class="subscription__input" id="email" name="email" placeholder="Email*" required type="email">
-                <button class="subscription__button">
-                    <span class="button__text"><img alt="arrow" class="center" src="./img/arrows.svg"></span>
+                <button class="subscription__button" type="button">
+                    <img alt="arrow" class="center" src="./img/arrows.svg">
                 </button>
             </form>
         </div>
